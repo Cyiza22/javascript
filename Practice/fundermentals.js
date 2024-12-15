@@ -17,3 +17,34 @@ function myFunction(a) {
 function myFunction(a, n) {
     return a[n - 1];
  }
+
+//  Write a function that takes a string (a) as argument. Remove the first 3 characters of a. Return the result
+
+// Write a function that takes a string (a) as argument. Remove the first 3 characters of a. Return the result
+function myFunction(a) {
+    return a.slice(3);
+ }
+ 
+ function myFunction(str) {
+    return str.slice(3);
+  }
+  
+  function myFunction(a) {
+    return a.slice(0, 3);
+  }
+  
+
+
+  function myFunction(a) {
+    return a.indexOf('is');
+  }
+
+  function myFunction(a) {
+
+    return a.slice(0, -3);
+  }
+
+  function myFunction(a, b) {
+  return (a * b) / 100;
+}
+ 
